@@ -62,37 +62,5 @@ main: 	push {lr} // we need to save LR's content for later and call to printf
 
 	mov r0, #0 // return code for your program (must be 8 bits)
 	pop {pc}
-// assemble: g++ scanf_2.s -g -o scanf_2
-//
-// program purpose: demonstrate simple usage of scanf using a
-// scan string with two format specifiers
-//
-// key points to keep in mind:
-// 1. put all format strings and string literals in .section .rodata
-// 2. adhere to the ARM Architecture Procedure Call Standard
-// 3. keep number of format specifiers to no more than 3.
-//
-
-// assemble: g++ scanf_2.s -g -o scanf_2
-//
-// program purpose: demonstrate simple usage of scanf using a
-// scan string with two format specifiers
-//
-// key points to keep in mind:
-// 1. put all format strings and string literals in .section .rodata
-// 2. adhere to the ARM Architecture Procedure Call Standard
-// 3. keep number of format specifiers to no more than 3.
-//
-
-// assemble: g++ scanf_2.s -g -o scanf_2
-//
-// program purpose: demonstrate simple usage of scanf using a
-// scan string with two format specifiers
-//
-// key points to keep in mind:
-// 1. put all format strings and string literals in .section .rodata
-// 2. adhere to the ARM Architecture Procedure Call Standard
-// 3. keep number of format specifiers to no more than 3.
-//
 
 
